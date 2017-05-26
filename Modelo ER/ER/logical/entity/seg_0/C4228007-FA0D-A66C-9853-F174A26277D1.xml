@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C4228007-FA0D-A66C-9853-F174A26277D1" name="Usuario">
+<createdBy>koko</createdBy>
+<createdTime>2017-05-26 00:00:12 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="DF302454-835C-0C09-717B-13BEB55AB4C4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_usuario" id="B82E9A9D-2F72-4D91-8652-25AF7D5B0591">
+<createdBy>koko</createdBy>
+<createdTime>2017-05-26 00:00:18 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="DF302454-835C-0C09-717B-13BEB55AB4C4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="8B75858D-C63B-1308-D314-2635AEA2477E">
+<createdBy>koko</createdBy>
+<createdTime>2017-05-26 00:00:28 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="DF302454-835C-0C09-717B-13BEB55AB4C4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DPI" id="94D81BC6-9D35-0D52-01C9-8F9D1B4B892A">
+<createdBy>koko</createdBy>
+<createdTime>2017-05-26 00:00:49 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="DF302454-835C-0C09-717B-13BEB55AB4C4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Usuario" id="207A59F9-77AC-809A-0039-4B5AC2A4B758">
+<createdBy>koko</createdBy>
+<createdTime>2017-05-26 00:01:01 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="DF302454-835C-0C09-717B-13BEB55AB4C4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Contrasenia" id="AB6875B8-4BDD-BCC3-C744-C0AEF771342B">
+<createdBy>koko</createdBy>
+<createdTime>2017-05-26 00:01:37 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="DF302454-835C-0C09-717B-13BEB55AB4C4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EC977607-F4DE-9573-9678-17CCD2F5EAA0" name="Usuario PK">
+<createdBy>koko</createdBy>
+<createdTime>2017-05-26 00:00:27 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="DF302454-835C-0C09-717B-13BEB55AB4C4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B82E9A9D-2F72-4D91-8652-25AF7D5B0591</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

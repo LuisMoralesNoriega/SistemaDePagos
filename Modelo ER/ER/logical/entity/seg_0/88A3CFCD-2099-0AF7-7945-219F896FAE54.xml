@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="88A3CFCD-2099-0AF7-7945-219F896FAE54" name="Grado_Seccion">
+<createdBy>koko</createdBy>
+<createdTime>2017-05-26 00:09:30 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="DF302454-835C-0C09-717B-13BEB55AB4C4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_Seccion" id="95298B1C-8155-994E-F820-0635E6690A87">
+<createdBy>koko</createdBy>
+<createdTime>2017-05-26 00:10:16 UTC</createdTime>
+<generatorID>DA3C4265-F438-309E-1C8F-36355EB33D6C</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="DF302454-835C-0C09-717B-13BEB55AB4C4" value="true"/>
+</engineerTo>
+<referedAttribute>07A2DA0F-86E5-9CA3-40A8-2219EE87106F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_grado" id="E8DD1DFF-DA85-9C99-9218-B5BBACDD2780">
+<createdBy>koko</createdBy>
+<createdTime>2017-05-26 00:10:30 UTC</createdTime>
+<generatorID>89245F8B-8DE3-5CE6-52FF-3BCA7B9BF373</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="DF302454-835C-0C09-717B-13BEB55AB4C4" value="true"/>
+</engineerTo>
+<referedAttribute>EEB8AC26-E83A-05EC-603A-D9FB2E0A1BE0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="GPPE" directorySegmentName="seg_0" id="59BFCC2B-BA8D-38BF-0D35-4F0EC903B288">
+<createdBy>koko</createdBy>
+<createdTime>2017-05-26 00:28:56 UTC</createdTime>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="DF302454-835C-0C09-717B-13BEB55AB4C4" value="true"/>
+</engineerTo>
+<sourcePk>A1BE51A2-5CC0-738B-A13F-C5E72C161323</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FA8C3D4C-6D61-4C7C-C864-21001827D63D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>52E550A2-E730-4F49-7C2B-EE3023A9AA62</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
