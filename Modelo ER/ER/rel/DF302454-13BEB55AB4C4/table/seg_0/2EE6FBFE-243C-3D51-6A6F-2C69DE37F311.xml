@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2EE6FBFE-243C-3D51-6A6F-2C69DE37F311" name="Seccion">
+<createdBy>koko</createdBy>
+<createdTime>2017-05-26 00:39:35 UTC</createdTime>
+<generatorID>31C3AD62-DE0B-E2C7-768F-47F6CC419FB8</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_Seccion" id="606FB576-DA38-BDE1-E520-6893166626FD">
+<createdBy>koko</createdBy>
+<createdTime>2017-05-26 00:39:35 UTC</createdTime>
+<generatorID>07A2DA0F-86E5-9CA3-40A8-2219EE87106F</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="FBB3F5A7-C408-B262-0F8C-48DC4C1CC960">
+<createdBy>koko</createdBy>
+<createdTime>2017-05-26 00:39:35 UTC</createdTime>
+<generatorID>7D9A3E57-B1FC-04CC-8E20-EEE165137E1D</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C99B3F74-6F0E-3ACA-E6A8-CDD0FB8D8A5C" name="Seccion_PK">
+<createdBy>koko</createdBy>
+<createdTime>2017-05-26 00:39:35 UTC</createdTime>
+<generatorID>68F815CE-D2B3-3B5F-FBAF-FA7BB5ED73FD</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="606FB576-DA38-BDE1-E520-6893166626FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

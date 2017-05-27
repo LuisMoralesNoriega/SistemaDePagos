@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FB353401-D4F8-AD49-B9AC-6E230E7BB1E7" name="Usuario">
+<createdBy>koko</createdBy>
+<createdTime>2017-05-26 00:39:35 UTC</createdTime>
+<generatorID>C4228007-FA0D-A66C-9853-F174A26277D1</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_usuario" id="F51B4B87-667E-DAD8-2751-DD3C9F206086">
+<createdBy>koko</createdBy>
+<createdTime>2017-05-26 00:39:35 UTC</createdTime>
+<generatorID>B82E9A9D-2F72-4D91-8652-25AF7D5B0591</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="E16C657B-1121-DFDC-C1FE-C9AB3A2AF532">
+<createdBy>koko</createdBy>
+<createdTime>2017-05-26 00:39:35 UTC</createdTime>
+<generatorID>8B75858D-C63B-1308-D314-2635AEA2477E</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DPI" id="E4B68897-DC5D-7B2A-1863-42FA9BE88679">
+<createdBy>koko</createdBy>
+<createdTime>2017-05-26 00:39:35 UTC</createdTime>
+<generatorID>94D81BC6-9D35-0D52-01C9-8F9D1B4B892A</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Usuario" id="E65F93C8-8A21-80E0-35BC-3C921078B566">
+<createdBy>koko</createdBy>
+<createdTime>2017-05-26 00:39:35 UTC</createdTime>
+<generatorID>207A59F9-77AC-809A-0039-4B5AC2A4B758</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Contrasenia" id="203A8E13-4496-7454-24F7-4A9AB948D20E">
+<createdBy>koko</createdBy>
+<createdTime>2017-05-26 00:39:35 UTC</createdTime>
+<generatorID>AB6875B8-4BDD-BCC3-C744-C0AEF771342B</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6DB7F9FB-0845-4D13-4598-620CE9EB4178" name="Usuario_PKv1">
+<createdBy>koko</createdBy>
+<createdTime>2017-05-26 00:39:35 UTC</createdTime>
+<generatorID>EC977607-F4DE-9573-9678-17CCD2F5EAA0</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F51B4B87-667E-DAD8-2751-DD3C9F206086"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

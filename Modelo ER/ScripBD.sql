@@ -1,17 +1,32 @@
 -- Generado por Oracle SQL Developer Data Modeler 4.1.5.907
---   en:        2017-05-25 18:39:40 CST
+--   en:        2017-05-26 18:44:33 CST
 --   sitio:      Oracle Database 11g
 --   tipo:      Oracle Database 11g
 
+DROP TABLE Pago_Efectuado;
 
+DROP TABLE Grado_Pago;
 
+DROP TABLE Recibo;
+
+DROP TABLE Alumno;
+
+DROP TABLE Grado_Seccion;
+
+DROP TABLE Seccion;
+
+DROP TABLE Grado;
+
+DROP TABLE Pago;
+
+DROP TABLE Usuario;
 
 CREATE TABLE Alumno
   (
     id_alumno INTEGER ,
     Nombre TEXT NOT NULL ,
-    Alumno_ID                      NUMBER NOT NULL ,
-    Grado_Seccion_Grado_Seccion_ID NUMBER NOT NULL
+    Alumno_ID                      NUMERIC NOT NULL ,
+    Grado_Seccion_Grado_Seccion_ID NUMERIC NOT NULL
   ) ;
 ALTER TABLE Alumno ADD CONSTRAINT Alumno_PK PRIMARY KEY ( Alumno_ID ) ;
 
@@ -26,7 +41,7 @@ CREATE TABLE Grado_Pago
   (
     id_GP INTEGER NOT NULL ,
     Descripcion TEXT NOT NULL ,
-    Monto        NUMBER NOT NULL ,
+    Monto        NUMERIC NOT NULL ,
     Fecha_limite DATE NOT NULL ,
     Mes TEXT NOT NULL ,
     Grado_id_grado INTEGER NOT NULL ,
@@ -39,7 +54,7 @@ CREATE TABLE Grado_Seccion
   (
     Seccion_id_Seccion INTEGER NOT NULL ,
     Grado_id_grado     INTEGER NOT NULL ,
-    Grado_Seccion_ID   NUMBER NOT NULL
+    Grado_Seccion_ID   NUMERIC NOT NULL
   ) ;
 ALTER TABLE Grado_Seccion ADD CONSTRAINT Grado_Seccion_PK PRIMARY KEY ( Grado_Seccion_ID ) ;
 
@@ -52,7 +67,7 @@ ALTER TABLE Pago ADD CONSTRAINT Pago_PK PRIMARY KEY ( id_pago ) ;
 
 CREATE TABLE Pago_Efectuado
   (
-    Mora             NUMBER ,
+    Mora             NUMERIC ,
     Recibo_id_recibo INTEGER NOT NULL ,
     Grado_Pago_id_GP INTEGER NOT NULL
   ) ;
@@ -62,8 +77,8 @@ CREATE TABLE Recibo
   (
     id_recibo        INTEGER NOT NULL ,
     Fecha            DATE NOT NULL ,
-    Total            NUMBER NOT NULL ,
-    Alumno_Alumno_ID NUMBER NOT NULL
+    Total            NUMERIC NOT NULL ,
+    Alumno_Alumno_ID NUMERIC NOT NULL
   ) ;
 ALTER TABLE Recibo ADD CONSTRAINT Recibo_PK PRIMARY KEY ( id_recibo ) ;
 
@@ -76,7 +91,7 @@ ALTER TABLE Seccion ADD CONSTRAINT Seccion_PK PRIMARY KEY ( id_Seccion ) ;
 
 CREATE TABLE Usuario
   (
-    id_usuario INTEGER NOT NULL ,
+    id_usuario SERIAL NOT NULL ,
     Nombre TEXT NOT NULL ,
     DPI TEXT NOT NULL ,
     Usuario TEXT NOT NULL ,

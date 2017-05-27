@@ -43,5 +43,18 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_GP" id="6BB96018-90AD-B7DA-9C8E-566B994F8371">
+<createdBy>koko</createdBy>
+<createdTime>2017-05-26 00:39:11 UTC</createdTime>
+<generatorID>59BFCC2B-BA8D-38BF-0D35-4F0EC903B288</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<engineerTo>
+<item key="DF302454-835C-0C09-717B-13BEB55AB4C4" value="true"/>
+</engineerTo>
+<referedAttribute>340A36A1-367B-0822-6FDF-9A60A38F99AB</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 </Entity>
