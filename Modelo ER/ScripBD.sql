@@ -1,7 +1,8 @@
 -- Generado por Oracle SQL Developer Data Modeler 4.1.5.907
---   en:        2017-05-26 18:44:33 CST
+--   en:        2017-05-27 11:00:15 CST
 --   sitio:      Oracle Database 11g
 --   tipo:      Oracle Database 11g
+
 
 DROP TABLE Pago_Efectuado;
 
@@ -95,9 +96,10 @@ CREATE TABLE Usuario
     Nombre TEXT NOT NULL ,
     DPI TEXT NOT NULL ,
     Usuario TEXT NOT NULL ,
-    Contrasenia TEXT NOT NULL
+    Contrasenia TEXT NOT NULL ,
+    rol TEXT NOT NULL
   ) ;
-ALTER TABLE Usuario ADD CONSTRAINT Usuario_PKv1 PRIMARY KEY ( id_usuario ) ;
+ALTER TABLE Usuario ADD CONSTRAINT Usuario_PK PRIMARY KEY ( id_usuario ) ;
 
 
 ALTER TABLE Alumno ADD CONSTRAINT Alumno_Grado_Seccion_FK FOREIGN KEY ( Grado_Seccion_Grado_Seccion_ID ) REFERENCES Grado_Seccion ( Grado_Seccion_ID ) ;

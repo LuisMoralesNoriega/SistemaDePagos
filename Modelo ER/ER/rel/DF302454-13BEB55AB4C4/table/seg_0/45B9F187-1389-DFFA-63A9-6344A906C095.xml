@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4491350D-7967-8DE3-91AA-6653AD93C451" name="Grado_Seccion">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="45B9F187-1389-DFFA-63A9-6344A906C095" name="Grado_Seccion">
 <createdBy>koko</createdBy>
-<createdTime>2017-05-26 00:39:35 UTC</createdTime>
+<createdTime>2017-05-27 17:00:00 UTC</createdTime>
 <generatorID>88A3CFCD-2099-0AF7-7945-219F896FAE54</generatorID>
 <ownerDesignName>ER</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="Seccion_id_Seccion" id="9B2FE072-C4F3-5C64-DC20-959575A7B348">
+<Column name="Seccion_id_Seccion" id="A5686BE1-9832-33E6-E829-47A3535F703B">
 <createdBy>koko</createdBy>
-<createdTime>2017-05-26 00:39:35 UTC</createdTime>
+<createdTime>2017-05-27 17:00:00 UTC</createdTime>
 <generatorID>95298B1C-8155-994E-F820-0635E6690A87</generatorID>
 <ownerDesignName>ER</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -20,12 +20,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="966E090C-7C27-A27B-A6C5-5B3F5DF18BD4" referredColumn="606FB576-DA38-BDE1-E520-6893166626FD"/>
+<colAssociation fkAssociation="E8FB9425-50E0-F2D0-FC47-D037DC9A7B1F" referredColumn="CC4402B3-96EF-D5D5-A5FF-8AE07857438F"/>
 </associations>
 </Column>
-<Column name="Grado_id_grado" id="73B373E4-A23A-A024-DDB8-7EEB687BB217">
+<Column name="Grado_id_grado" id="1FF7A6D1-0F1C-EAAF-64BD-BA1FBE698883">
 <createdBy>koko</createdBy>
-<createdTime>2017-05-26 00:39:35 UTC</createdTime>
+<createdTime>2017-05-27 17:00:00 UTC</createdTime>
 <generatorID>E8DD1DFF-DA85-9C99-9218-B5BBACDD2780</generatorID>
 <ownerDesignName>ER</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -35,12 +35,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="2E88C90A-3994-1CC2-F45B-785D2E73723A" referredColumn="CF9AE084-DB47-C02F-47C7-6B3376A86303"/>
+<colAssociation fkAssociation="C70CA47C-0910-CE84-B56E-80D95D5FD36C" referredColumn="D6FC8628-C0E4-C4AD-A7D2-3AF28913D4A5"/>
 </associations>
 </Column>
-<Column name="Grado_Seccion_ID" id="386FABDD-ED3E-9C24-1C6D-926301517559">
+<Column name="Grado_Seccion_ID" id="E543C304-AF31-D14D-56D5-1B7B537DD5E4">
 <createdBy>koko</createdBy>
-<createdTime>2017-05-26 00:39:35 UTC</createdTime>
+<createdTime>2017-05-27 17:00:00 UTC</createdTime>
 <ownerDesignName>ER</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -53,36 +53,36 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="7B748779-025D-2846-F07A-1039394BA757" name="Grado_Seccion_PK">
+<ind_PK_UK id="98E7C12D-C344-F386-2289-89ABFA33F16E" name="Grado_Seccion_PK">
 <createdBy>koko</createdBy>
-<createdTime>2017-05-26 00:39:35 UTC</createdTime>
+<createdTime>2017-05-27 17:00:00 UTC</createdTime>
 <ownerDesignName>ER</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <indexColumnUsage>
-<colUsage columnID="386FABDD-ED3E-9C24-1C6D-926301517559"/>
+<colUsage columnID="E543C304-AF31-D14D-56D5-1B7B537DD5E4"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="0C06CDA8-E0A9-D9F5-CE25-DB710045BADF" name="Grado_Seccion_Grado_FK">
+<ind_PK_UK id="92933919-B58A-DD67-C8FA-A612AAC5FB3C" name="Grado_Seccion_Grado_FK">
 <createdBy>koko</createdBy>
-<createdTime>2017-05-26 00:39:35 UTC</createdTime>
+<createdTime>2017-05-27 17:00:00 UTC</createdTime>
 <generatorID>89245F8B-8DE3-5CE6-52FF-3BCA7B9BF373</generatorID>
 <ownerDesignName>ER</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="73B373E4-A23A-A024-DDB8-7EEB687BB217"/>
+<colUsage columnID="1FF7A6D1-0F1C-EAAF-64BD-BA1FBE698883"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="19BC2B77-9990-3B52-53F1-2933BB7091C4" name="Grado_Seccion_Seccion_FK">
+<ind_PK_UK id="AF84F073-EF2E-6306-8AD1-5C2DE6AEF886" name="Grado_Seccion_Seccion_FK">
 <createdBy>koko</createdBy>
-<createdTime>2017-05-26 00:39:35 UTC</createdTime>
+<createdTime>2017-05-27 17:00:00 UTC</createdTime>
 <generatorID>DA3C4265-F438-309E-1C8F-36355EB33D6C</generatorID>
 <ownerDesignName>ER</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="9B2FE072-C4F3-5C64-DC20-959575A7B348"/>
+<colUsage columnID="A5686BE1-9832-33E6-E829-47A3535F703B"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

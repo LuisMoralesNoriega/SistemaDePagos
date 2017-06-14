@@ -1,50 +1,52 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F7E5828D-022E-DB6B-8EDA-6135F8673109" name="Recibo">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1D35CF67-CA59-DB8F-C85C-44B2342F3F3D" name="Alumno">
 <createdBy>koko</createdBy>
-<createdTime>2017-05-26 00:39:35 UTC</createdTime>
-<generatorID>A2F54D7E-A41D-2F03-06BC-A10265AA314C</generatorID>
+<createdTime>2017-05-27 17:00:00 UTC</createdTime>
+<generatorID>8612C8EA-29D9-DC63-5A87-24B0CBEDB700</generatorID>
 <ownerDesignName>ER</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_recibo" id="F3E87E70-B6F7-519C-07C0-6FF4EDDA3C9D">
+<Column name="id_alumno" id="E6882056-A307-485E-E3B7-7623D71A4F94">
 <createdBy>koko</createdBy>
-<createdTime>2017-05-26 00:39:35 UTC</createdTime>
-<generatorID>8D4E1A00-8E13-3DDE-49EB-755F6BBF0FB2</generatorID>
+<createdTime>2017-05-27 17:00:00 UTC</createdTime>
+<generatorID>71D29EC3-E8D9-CFE7-61CA-7EE1A74AB5B0</generatorID>
 <ownerDesignName>ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Fecha" id="0881943D-3471-7BEC-330C-06F19BF1804D">
+<Column name="Nombre" id="1343A47B-FAA9-7055-94C6-A36923A0BB9B">
 <createdBy>koko</createdBy>
-<createdTime>2017-05-26 00:39:35 UTC</createdTime>
-<generatorID>5F4FC5F2-5660-B95D-8593-49288C432E28</generatorID>
+<createdTime>2017-05-27 17:00:00 UTC</createdTime>
+<generatorID>64E9DEED-8B4E-BDC0-3DB4-137652F32A55</generatorID>
 <ownerDesignName>ER</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
+<logicalDatatype>LOGDT040</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Total" id="615BA1A4-A3EB-B1B5-CAC8-E6F2A69A749A">
+<Column name="Alumno_ID" id="28302436-3012-B893-7864-6A98BA3ACCF9">
 <createdBy>koko</createdBy>
-<createdTime>2017-05-26 00:39:35 UTC</createdTime>
-<generatorID>578E7389-A47A-7E98-BB08-C2F208FC1258</generatorID>
+<createdTime>2017-05-27 17:00:00 UTC</createdTime>
 <ownerDesignName>ER</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypeScale>2</dataTypeScale>
-<ownDataTypeParameters>,,2</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
 </Column>
-<Column name="Alumno_Alumno_ID" id="CDF5439E-E20C-DA51-5DAA-03759145F424">
+<Column name="Grado_Seccion_Grado_Seccion_ID" id="8C45DFBC-57AA-796D-04AB-32871134F3D9">
 <createdBy>koko</createdBy>
-<createdTime>2017-05-26 00:39:35 UTC</createdTime>
+<createdTime>2017-05-27 17:00:00 UTC</createdTime>
 <ownerDesignName>ER</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -53,32 +55,30 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="FEBD10D0-6BAD-9FF5-7538-1535F1DC7E23" referredColumn="DCC8738F-43DA-A01E-5442-B34B9F288D6F"/>
+<colAssociation fkAssociation="44DB04D0-8B58-E77B-3503-7028E1BEC54D" referredColumn="E543C304-AF31-D14D-56D5-1B7B537DD5E4"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="287AF6DF-CE01-FA7D-261C-EC0E9392312E" name="Recibo_PK">
+<ind_PK_UK id="1374F630-ECD5-D28A-9949-8732CB45C8C2" name="Alumno_PK">
 <createdBy>koko</createdBy>
-<createdTime>2017-05-26 00:39:35 UTC</createdTime>
-<generatorID>82A95CE7-D1CD-F136-37A6-92E8CB519F69</generatorID>
+<createdTime>2017-05-27 17:00:00 UTC</createdTime>
 <ownerDesignName>ER</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
-<isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="F3E87E70-B6F7-519C-07C0-6FF4EDDA3C9D"/>
+<colUsage columnID="28302436-3012-B893-7864-6A98BA3ACCF9"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="FBD066E4-AF1F-B8B8-FF89-C37DAA4AB84D" name="Recibo_Alumno_FK">
+<ind_PK_UK id="DA7BF4E6-6CAB-41A1-6AA7-F7AE50B5AEBD" name="Alumno_Grado_Seccion_FK">
 <createdBy>koko</createdBy>
-<createdTime>2017-05-26 00:39:35 UTC</createdTime>
-<generatorID>8791586A-6043-8BE8-16C7-E5A35D84161F</generatorID>
+<createdTime>2017-05-27 17:00:00 UTC</createdTime>
+<generatorID>3482265A-7C29-6835-531B-1336A75E7795</generatorID>
 <ownerDesignName>ER</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="CDF5439E-E20C-DA51-5DAA-03759145F424"/>
+<colUsage columnID="8C45DFBC-57AA-796D-04AB-32871134F3D9"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FB353401-D4F8-AD49-B9AC-6E230E7BB1E7" name="Usuario">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="99011AEC-A473-0A8F-D046-9FEE51D4D877" name="Usuario">
 <createdBy>koko</createdBy>
-<createdTime>2017-05-26 00:39:35 UTC</createdTime>
+<createdTime>2017-05-27 17:00:00 UTC</createdTime>
 <generatorID>C4228007-FA0D-A66C-9853-F174A26277D1</generatorID>
 <ownerDesignName>ER</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_usuario" id="F51B4B87-667E-DAD8-2751-DD3C9F206086">
+<Column name="id_usuario" id="73A37B95-0B98-7109-126C-12F1C93CB368">
 <createdBy>koko</createdBy>
-<createdTime>2017-05-26 00:39:35 UTC</createdTime>
+<createdTime>2017-05-27 17:00:00 UTC</createdTime>
 <generatorID>B82E9A9D-2F72-4D91-8652-25AF7D5B0591</generatorID>
 <ownerDesignName>ER</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -19,9 +19,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Nombre" id="E16C657B-1121-DFDC-C1FE-C9AB3A2AF532">
+<Column name="Nombre" id="5FC2096C-C5D0-F96C-BD9A-D6FA38101D69">
 <createdBy>koko</createdBy>
-<createdTime>2017-05-26 00:39:35 UTC</createdTime>
+<createdTime>2017-05-27 17:00:00 UTC</createdTime>
 <generatorID>8B75858D-C63B-1308-D314-2635AEA2477E</generatorID>
 <ownerDesignName>ER</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -30,9 +30,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="DPI" id="E4B68897-DC5D-7B2A-1863-42FA9BE88679">
+<Column name="DPI" id="87693D98-900A-FC46-5292-690E62C30E97">
 <createdBy>koko</createdBy>
-<createdTime>2017-05-26 00:39:35 UTC</createdTime>
+<createdTime>2017-05-27 17:00:00 UTC</createdTime>
 <generatorID>94D81BC6-9D35-0D52-01C9-8F9D1B4B892A</generatorID>
 <ownerDesignName>ER</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -41,9 +41,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Usuario" id="E65F93C8-8A21-80E0-35BC-3C921078B566">
+<Column name="Usuario" id="F2848121-0265-8898-C161-FD2A030E150C">
 <createdBy>koko</createdBy>
-<createdTime>2017-05-26 00:39:35 UTC</createdTime>
+<createdTime>2017-05-27 17:00:00 UTC</createdTime>
 <generatorID>207A59F9-77AC-809A-0039-4B5AC2A4B758</generatorID>
 <ownerDesignName>ER</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -52,10 +52,21 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Contrasenia" id="203A8E13-4496-7454-24F7-4A9AB948D20E">
+<Column name="Contrasenia" id="4B7BA0F3-C757-22F1-7AB5-4405297B8B55">
 <createdBy>koko</createdBy>
-<createdTime>2017-05-26 00:39:35 UTC</createdTime>
+<createdTime>2017-05-27 17:00:00 UTC</createdTime>
 <generatorID>AB6875B8-4BDD-BCC3-C744-C0AEF771342B</generatorID>
+<ownerDesignName>ER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rol" id="D256DF8F-A3C2-404D-DCA4-08846E3CB3CB">
+<createdBy>koko</createdBy>
+<createdTime>2017-05-27 17:00:00 UTC</createdTime>
+<generatorID>AC948A72-11CB-4D62-59F3-A784DA2CD3F4</generatorID>
 <ownerDesignName>ER</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -65,16 +76,16 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="6DB7F9FB-0845-4D13-4598-620CE9EB4178" name="Usuario_PKv1">
+<ind_PK_UK id="4711C7BA-CA9D-C895-2AD7-03B88114EE4A" name="Usuario_PK">
 <createdBy>koko</createdBy>
-<createdTime>2017-05-26 00:39:35 UTC</createdTime>
+<createdTime>2017-05-27 17:00:00 UTC</createdTime>
 <generatorID>EC977607-F4DE-9573-9678-17CCD2F5EAA0</generatorID>
 <ownerDesignName>ER</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="F51B4B87-667E-DAD8-2751-DD3C9F206086"/>
+<colUsage columnID="73A37B95-0B98-7109-126C-12F1C93CB368"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

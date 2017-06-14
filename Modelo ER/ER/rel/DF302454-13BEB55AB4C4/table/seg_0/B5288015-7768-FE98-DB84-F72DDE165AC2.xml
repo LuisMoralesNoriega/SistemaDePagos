@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A55D9C52-4EF5-8490-5A13-DE48DB1B3D76" name="Grado_Pago">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B5288015-7768-FE98-DB84-F72DDE165AC2" name="Grado_Pago">
 <createdBy>koko</createdBy>
-<createdTime>2017-05-26 00:39:35 UTC</createdTime>
+<createdTime>2017-05-27 17:00:00 UTC</createdTime>
 <generatorID>FA8C3D4C-6D61-4C7C-C864-21001827D63D</generatorID>
 <ownerDesignName>ER</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_GP" id="7C173D95-B5CD-1D73-DC09-56411B7AD25C">
+<Column name="id_GP" id="B24F2BD9-A9D0-8624-2CCB-709A7C7C057C">
 <createdBy>koko</createdBy>
-<createdTime>2017-05-26 00:39:35 UTC</createdTime>
+<createdTime>2017-05-27 17:00:00 UTC</createdTime>
 <generatorID>340A36A1-367B-0822-6FDF-9A60A38F99AB</generatorID>
 <ownerDesignName>ER</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -19,9 +19,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Descripcion" id="BFD97F44-B054-5D49-226F-4C37F0E66F58">
+<Column name="Descripcion" id="D3DB72AB-4537-B72A-6779-5F0ED343D2B9">
 <createdBy>koko</createdBy>
-<createdTime>2017-05-26 00:39:35 UTC</createdTime>
+<createdTime>2017-05-27 17:00:00 UTC</createdTime>
 <generatorID>24020F94-0B39-299A-3950-07FDE78C592E</generatorID>
 <ownerDesignName>ER</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -30,9 +30,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Monto" id="AB2F6AD5-94BF-220E-23F4-FA66DF44F04E">
+<Column name="Monto" id="91BC9070-20D8-0F2D-C366-3F5AA1306DA7">
 <createdBy>koko</createdBy>
-<createdTime>2017-05-26 00:39:35 UTC</createdTime>
+<createdTime>2017-05-27 17:00:00 UTC</createdTime>
 <generatorID>D71673FC-751B-BF58-9346-53BFEFD17403</generatorID>
 <ownerDesignName>ER</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -42,9 +42,9 @@
 <ownDataTypeParameters>,,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Fecha_limite" id="495723FC-E6F4-9E85-0E76-88CB5C57333C">
+<Column name="Fecha_limite" id="140A43AC-C28E-F7B9-C64C-6B560C2AF2DF">
 <createdBy>koko</createdBy>
-<createdTime>2017-05-26 00:39:35 UTC</createdTime>
+<createdTime>2017-05-27 17:00:00 UTC</createdTime>
 <generatorID>EF9E1480-9164-EF94-CB28-BA7C1B76C346</generatorID>
 <ownerDesignName>ER</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -53,9 +53,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Mes" id="09B571E7-C3A8-A857-8843-263938151EA3">
+<Column name="Mes" id="BC68B24B-43AD-7B64-FB5E-F700E531B4AE">
 <createdBy>koko</createdBy>
-<createdTime>2017-05-26 00:39:35 UTC</createdTime>
+<createdTime>2017-05-27 17:00:00 UTC</createdTime>
 <generatorID>CFE93B5F-E28B-5740-FB50-1256300B60AD</generatorID>
 <ownerDesignName>ER</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -64,9 +64,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Grado_id_grado" id="CA7D2AB5-3E5E-8244-9762-E3C431632882">
+<Column name="Grado_id_grado" id="9F83C4CD-121E-5DAB-F777-92FE17F0AFB7">
 <createdBy>koko</createdBy>
-<createdTime>2017-05-26 00:39:35 UTC</createdTime>
+<createdTime>2017-05-27 17:00:00 UTC</createdTime>
 <generatorID>9E527EBC-C9EE-D463-7353-667CB71D7250</generatorID>
 <ownerDesignName>ER</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -76,12 +76,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="0F781E66-147E-0F9A-C298-6E3EA4F06DDF" referredColumn="CF9AE084-DB47-C02F-47C7-6B3376A86303"/>
+<colAssociation fkAssociation="06CA9472-80F7-0E5E-A927-22B6AD352361" referredColumn="D6FC8628-C0E4-C4AD-A7D2-3AF28913D4A5"/>
 </associations>
 </Column>
-<Column name="Pago_id_pago" id="DB391E4E-CE8B-095A-46B3-418EAEBB52C8">
+<Column name="Pago_id_pago" id="FD0B14BC-5584-71BD-C84C-1D812E610732">
 <createdBy>koko</createdBy>
-<createdTime>2017-05-26 00:39:35 UTC</createdTime>
+<createdTime>2017-05-27 17:00:00 UTC</createdTime>
 <generatorID>0E0001A1-6888-966F-6AFE-C49FD678EDC9</generatorID>
 <ownerDesignName>ER</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -91,43 +91,43 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="9A9F87FD-7D32-E0B1-011A-50FFCC7244B6" referredColumn="D0CF760D-D56B-F091-1C6C-050BF0B344EF"/>
+<colAssociation fkAssociation="E0306E47-0A09-E3C5-AC8E-448C8D10245C" referredColumn="7F2F1593-EF6B-141A-F40C-899472ECB5C5"/>
 </associations>
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="3575B5C8-7E5B-3B3C-967A-C10F042D1B61" name="Grado_Pago_PK">
+<ind_PK_UK id="E9298E92-76ED-DEB3-3D02-5353933FB159" name="Grado_Pago_PK">
 <createdBy>koko</createdBy>
-<createdTime>2017-05-26 00:39:35 UTC</createdTime>
+<createdTime>2017-05-27 17:00:00 UTC</createdTime>
 <generatorID>A1BE51A2-5CC0-738B-A13F-C5E72C161323</generatorID>
 <ownerDesignName>ER</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="7C173D95-B5CD-1D73-DC09-56411B7AD25C"/>
+<colUsage columnID="B24F2BD9-A9D0-8624-2CCB-709A7C7C057C"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="E627A2F1-E8C7-6DFA-F17F-D7AA9DFFA5CA" name="Grado_Pago_Grado_FK">
+<ind_PK_UK id="183BD618-2C75-3571-208D-149C74EC0495" name="Grado_Pago_Grado_FK">
 <createdBy>koko</createdBy>
-<createdTime>2017-05-26 00:39:35 UTC</createdTime>
+<createdTime>2017-05-27 17:00:00 UTC</createdTime>
 <generatorID>101BF80B-18F8-0879-7090-EDFDCF98CB5B</generatorID>
 <ownerDesignName>ER</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="CA7D2AB5-3E5E-8244-9762-E3C431632882"/>
+<colUsage columnID="9F83C4CD-121E-5DAB-F777-92FE17F0AFB7"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="C667BFD3-3A7B-A5E4-5F78-E4C8C53BD77A" name="Grado_Pago_Pago_FK">
+<ind_PK_UK id="BC08DAC6-64B0-D5E7-D51A-DCA139054EE6" name="Grado_Pago_Pago_FK">
 <createdBy>koko</createdBy>
-<createdTime>2017-05-26 00:39:35 UTC</createdTime>
+<createdTime>2017-05-27 17:00:00 UTC</createdTime>
 <generatorID>87DB36D1-B4B2-432E-3F6B-43BE6700BED6</generatorID>
 <ownerDesignName>ER</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="DB391E4E-CE8B-095A-46B3-418EAEBB52C8"/>
+<colUsage columnID="FD0B14BC-5584-71BD-C84C-1D812E610732"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

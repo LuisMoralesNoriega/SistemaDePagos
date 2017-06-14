@@ -1,17 +1,17 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EC5A1206-9201-F3C7-CDF2-1D1DC42CBDEE" name="Grado">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="997EBC1F-97F9-485C-0102-9BC6C6365633" name="Seccion">
 <createdBy>koko</createdBy>
-<createdTime>2017-05-26 00:39:35 UTC</createdTime>
-<generatorID>898662BA-EB28-FCFA-BDF0-10CCF5B2BAD0</generatorID>
+<createdTime>2017-05-27 17:00:00 UTC</createdTime>
+<generatorID>31C3AD62-DE0B-E2C7-768F-47F6CC419FB8</generatorID>
 <ownerDesignName>ER</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_grado" id="CF9AE084-DB47-C02F-47C7-6B3376A86303">
+<Column name="id_Seccion" id="CC4402B3-96EF-D5D5-A5FF-8AE07857438F">
 <createdBy>koko</createdBy>
-<createdTime>2017-05-26 00:39:35 UTC</createdTime>
-<generatorID>EEB8AC26-E83A-05EC-603A-D9FB2E0A1BE0</generatorID>
+<createdTime>2017-05-27 17:00:00 UTC</createdTime>
+<generatorID>07A2DA0F-86E5-9CA3-40A8-2219EE87106F</generatorID>
 <ownerDesignName>ER</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -19,10 +19,10 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="Nombre" id="A0EC1AD0-35B3-D20D-2904-20ED925B7FEE">
+<Column name="Nombre" id="80764ADD-2E47-45A3-844F-C296EB0BA50C">
 <createdBy>koko</createdBy>
-<createdTime>2017-05-26 00:39:35 UTC</createdTime>
-<generatorID>972734B6-EF30-E950-0D10-82ABAABA9A77</generatorID>
+<createdTime>2017-05-27 17:00:00 UTC</createdTime>
+<generatorID>7D9A3E57-B1FC-04CC-8E20-EEE165137E1D</generatorID>
 <ownerDesignName>ER</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -32,16 +32,16 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="096F3765-C9AA-C47A-E6EF-B3537D8F7660" name="Grado_PK">
+<ind_PK_UK id="857FE4D4-0649-9E2F-8D6A-C2D1A9E76621" name="Seccion_PK">
 <createdBy>koko</createdBy>
-<createdTime>2017-05-26 00:39:35 UTC</createdTime>
-<generatorID>0E8A9FAB-4B82-0A97-67FC-7A501FFA6C6E</generatorID>
+<createdTime>2017-05-27 17:00:00 UTC</createdTime>
+<generatorID>68F815CE-D2B3-3B5F-FBAF-FA7BB5ED73FD</generatorID>
 <ownerDesignName>ER</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="CF9AE084-DB47-C02F-47C7-6B3376A86303"/>
+<colUsage columnID="CC4402B3-96EF-D5D5-A5FF-8AE07857438F"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
